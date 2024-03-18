@@ -5,6 +5,7 @@ fn main() {
     for i in std::io::stdin().lines().take(2) {
         buf.push(i.unwrap());
     }
+    
     // parse the first input to u64 and unwrap it
     let n: u64 = buf[0].parse().unwrap();
     println!("{}", n);

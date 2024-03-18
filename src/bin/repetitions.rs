@@ -9,7 +9,7 @@ fn main(){
     // Some is used to check if the iterator has a value
     // dna.next() is used to get the next value from the iterator
     // dna.peek() is used to look at the next value from the iterator without consuming it
-    //&next is used to get the value of the next element
+    // &next is used to get the value of the next element
     while let Some(c) = dna.next(){
         if let Some(&next) = dna.peek(){
             if c == next{
