@@ -15,4 +15,4 @@ fn main(){
     }
    }
    print!("{}", moves)
-}
+} 
